@@ -20,3 +20,7 @@ Here are some common issues you might encounter and how to solve them:
 - Database connection errors: If Django can’t connect to PostgreSQL, verify that your database service name matches in compose.yml and settings.py.
 - File synchronization issues: Use the volumes directive in compose.yml to sync changes from your local files to the container.
 - Container restart loops or crashes: Use docker compose logs to inspect container errors and determine the cause of the crash.
+
+## Sources
+
+[How to Dockerize a Django App: Step-by-Step Guide for Beginners - By: Lance Haig](https://www.docker.com/blog/how-to-dockerize-django-app/)
